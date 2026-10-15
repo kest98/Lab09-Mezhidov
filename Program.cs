@@ -2,7 +2,7 @@
 // using System.Runtime.Serialization.Formatters;
 
 // int totalExercises = 8;
-// for (int number = 8; number <= totalExercises; number--)
+// for (int number = 8; number >= 1; number--)
 // {
 //     Console.WriteLine($"Упражнение {number}");
 // }
@@ -23,7 +23,7 @@
 //     for (int day = 1; day <= 5; day++)
 //     {
 //         Console.WriteLine($"Неделя {week}, день {day}");
-//         if (int >= 5)
+//         if (day >= 5)
 //         {
 //             Console.WriteLine("^_^");
 //         }
@@ -94,7 +94,7 @@
 
 
 //Вариант 3
-using System.Runtime.CompilerServices;
+// using System.Runtime.CompilerServices;
 int cube1 = 0;
 int N = int.Parse(Console.ReadLine());
 for (int number = 1; number <= N; number++)
